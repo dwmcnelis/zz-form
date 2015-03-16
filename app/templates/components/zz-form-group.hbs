@@ -1,0 +1,8 @@
+{{! app/templates/components/zz-form-group.hbs }}
+{{#if wrapperClass}}
+    <div {{bind-attr class=wrapperClass}}>
+        {{partial 'components/zz-formgroup/zz-form-group'}}
+    </div>
+{{else}}
+    {{partial 'components/zz-formgroup/zz-form-group'}}
+{{/if}}
